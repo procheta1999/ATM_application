@@ -19,6 +19,7 @@ bool CheckCredentials(long int input_acc_no,int input_pin);
   void cashwithdraw(long int deduction);
   void getUserDetails();
   void setMobileNumber(long int updated_mobile_number);
+  // friend void selectChoice(Bank account);
   // {
   //   cout<<"Your balance is: "<<balance<<endl;
   // }

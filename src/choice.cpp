@@ -2,7 +2,7 @@
 #include "../include/choice.h"
 #include <iostream>
 #include <string>
-void selectChoice(Bank account)
+void selectChoice(Bank &account)
 {
     int choice;
    cout<<"Select from the below choices:"<<endl;
@@ -18,10 +18,10 @@ void selectChoice(Bank account)
 			account.checkBalance();
 			break;
 		case 2:
-		    long int amount;
+		    long int cash;
 		    cout<<"Amount you want to withdraw"<<endl;
-		    cin>>amount;
-		    account.cashwithdraw(amount);
+		    cin>>cash;
+		    account.cashwithdraw(cash);
 			account.checkBalance();
 			break;
 		case 3:
