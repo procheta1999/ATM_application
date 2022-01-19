@@ -99,7 +99,7 @@ int main()
 		else
 		
 		{
-			cout<<"Visit Again."<<endl;
+			cout<<"Visit Again.Thank You"<<endl;
 			return 0;
 		}
 	}
